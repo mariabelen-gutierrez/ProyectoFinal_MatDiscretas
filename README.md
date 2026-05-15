@@ -19,13 +19,14 @@ La idea es representar:
 
 Abre esta carpeta en VS Code y ejecuta en la terminal:
 
+En Mac:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-En Windows, la activacion seria:
+En Windows:
 
 ```bash
 .venv\Scripts\activate
@@ -94,5 +95,4 @@ Por ejemplo, si Ana no sigue a Gabriela, pero tienen amistades en comun e intere
 - Agregar mas usuarios y categorias de intereses.
 - Cambiar la formula de recomendacion.
 - Simular likes, comentarios, mensajes y seguidores por separado.
-- Crear una version web con Streamlit.
 - Comparar recomendaciones por amigos en comun contra recomendaciones por intereses.
